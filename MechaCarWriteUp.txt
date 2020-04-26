@@ -1,0 +1,11 @@
+1. MPG Regression
+For a given the predictor, the t-statistic evaluates whether or not there is significant association between the predictor and the outcome variable, that is whether the beta coefficient of the predictor is significantly different from zero. For example, for a fixed amount of all other variables, spending an additional 1 000 dollars on spoiler angle leads to an increase in sales by approximately 6.8765*1000 = 6877 sale units, on average. With the logic, we could say that vehicle length, spoiler angle, or even ground clerance are significant in the multiple regression model relatively to the mpg values in the dataset. In addition, from the linear regresion model, the r-squared value is 0.71, which means that roughly 70% of all mpg of MechaCar predictions will be correct and effective when using this linear model. Furthermore, the p-value of the linear regression analysis is 5.35e-11, which is much smaller than our assumed significance level of 0.05%. Therefore, we can state that there's sufficient evidence to reject the null hypothesis, which also implies that the slope of our linear model is not zero. 
+
+2. Suspension Coil Summary
+According to the design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per inch, however, the current manufacturing_Lot3 records 170.28612 which exceeds more than 70 pounds/inch which does not meet that design specification. 
+
+3. Suspension Coil T-test 
+In order to determine if the suspension coil's pound-per-inch results are statistically different from the mean population results of 1,500 pounds per inch, we use one samp
+
+4. Design Your Own Study
+Beginning with designing my own study, I thought that horsepower could be a interest to a consumer and that could be a metric for comparative effects on mpg. Realizing that we have mtcar file includes the horsepower data while the mechacar data did not include it, I could still test run  a sample of 32 cars of the mtdata in order to examine whether the horsepower would be worthy of further testing. Knowing what test should be used, we need mtcar data - analising the data it is possible to see some co-relation between HP and MPG. Based on our t-test and the regression, the evidence suggests that it would be worthy analysis in a mechacar horsepower study. 
